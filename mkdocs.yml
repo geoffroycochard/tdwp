@@ -1,6 +1,7 @@
 site_name: TD Wordpress
 pages:
     - Installation: install.md
-    - Hooks / Actions : hooks.md
+    - Fonctionnalités natives: native.md
+    - Notions : notions.md
     - Theme : theme.md
 theme: readthedocs
