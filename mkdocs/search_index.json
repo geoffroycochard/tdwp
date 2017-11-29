@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/install/", 
+            "text": "", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/hooks/", 
+            "text": "", 
+            "title": "Hooks / Actions"
+        }, 
+        {
+            "location": "/theme/", 
+            "text": "", 
+            "title": "Theme"
+        }
+    ]
+}
