@@ -58,7 +58,14 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../hooks/">Hooks / Actions</a>
+        <a class="" href="../native/">Fonctionnalités natives</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../notions/">Notions</a>
         
     </li>
 <li>
@@ -68,6 +75,17 @@
         <a class="current" href="./">Theme</a>
         
             <ul>
+            
+                <li class="toctree-l3"><a href="#theme-developpement">Theme developpement</a></li>
+                
+                    <li><a class="toctree-l4" href="#principe">Principe</a></li>
+                
+                    <li><a class="toctree-l4" href="#composition-dun-theme">Composition d'un thème</a></li>
+                
+                    <li><a class="toctree-l4" href="#ressources">Ressources</a></li>
+                
+                    <li><a class="toctree-l4" href="#exercice">Exercice</a></li>
+                
             
             </ul>
         
@@ -106,7 +124,34 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="theme-developpement">Theme developpement</h1>
+<h2 id="principe">Principe</h2>
+<p>Un thème wordpress regroupe un design et des fonctionnalités spécifiques pour le site.
+On peut profiter de toute l'API Wordpress. (templates, template tags, loops)</p>
+<p><strong><a href="https://codex.wordpress.org/Theme_Development">Source officiel</a></strong></p>
+<h2 id="composition-dun-theme">Composition d'un thème</h2>
+<p>Un thème doit composer d'au moins deux fichiers pour être reconnu par Wordpress</p>
+<pre><code>- style.css
+ /*
+ Theme Name: Le thème de test
+ Author: Midnight Falcon
+ Author URI: http://monsiteweb.com
+ Description: Notre premier thème WordPress !
+ */
+</code></pre>
+<ul>
+<li>function.php</li>
+</ul>
+<h2 id="ressources">Ressources</h2>
+<ul>
+<li><a href="../resources/Theme.pdf">Theme part</a></li>
+<li><a href="https://codex.wordpress.org/Theme_Development">Officiel documentation</a></li>
+<li><a href="https://cdn.yoast.com/app/uploads/2011/01/anatomy-wordpress-yoast.png">Voir l'anatomie d'un thème wordpress</a></li>
+</ul>
+<h2 id="exercice">Exercice</h2>
+<h3 id="creation-du-theme">Création du thème</h3>
+<p><a href="../resources/initializr.zip">A partir de ce package</a>, créer un theme.</p>
+<h3 id="ajouter-un-post-type-concert">Ajouter un post type "concert"</h3>
               
             </div>
           </div>
@@ -115,7 +160,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="../hooks/" class="btn btn-neutral" title="Hooks / Actions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../notions/" class="btn btn-neutral" title="Notions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -141,7 +186,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../hooks/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../notions/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
     </span>
