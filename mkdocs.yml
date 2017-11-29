@@ -1,0 +1,6 @@
+site_name: TD Wordpress
+pages:
+    - Installation: install.md
+    - Hooks / Actions : hooks.md
+    - Theme : theme.md
+theme: readthedocs
