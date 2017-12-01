@@ -155,8 +155,12 @@ On peut profiter de toute l'API Wordpress. (templates, template tags, loops)</p>
 <p>Créer le répertoire qui va accueillir notre thème dans <code>wp-content/theme</code> avec le nom du theme "massively"</p>
 <ul>
 <li>Créer les fichiers <code>style.css</code> ainsi qu'un <code>index.php</code></li>
-<li>Intégrer le template en le découpant avec la logique d'un thème wordpress (Header, footer, etc...)</li>
-<li>Insérer les styles / scripts avec les functions <code>wp_enqueue_*</code></li>
+<li>Intégrer le template en le découpant avec la logique d'un thème wordpress (Header, footer, etc...)<ul>
+<li>intégrer les fontions</li>
+<li>rendre dynamique la génération des parties <code>wp_head</code>, <code>wp_footer</code></li>
+</ul>
+</li>
+<li>Insérer les styles / scripts avec les functions <code>wp_enqueue_*</code> en utilisant le hook action <code>wp_enqueue_scripts</code></li>
 <li>Mappé un menu, deux zones de pied de pages afin de les rendre dynamiques</li>
 </ul>
 <h3 id="ajouter-un-post-type-concert">Ajouter un post type "concert"</h3>
