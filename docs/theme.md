@@ -30,7 +30,18 @@ Un thème doit composer d'au moins deux fichiers pour être reconnu par Wordpres
 ## Exercice
 
 ### Création du thème
-[A partir de ce package](resources/initializr.zip), créer un theme.
 
+[A partir de ce package](resources/html5up-massively.zip), créer un theme.
+
+#### Répertoire
+
+Créer le répertoire qui va accueillir notre thème dans ````wp-content/theme```` avec le nom du theme "massively"
+
+ * Créer les fichiers ```style.css``` ainsi qu'un ```index.php```
+ * Intégrer le template en le découpant avec la logique d'un thème wordpress (Header, footer, etc...)
+ * Insérer les styles / scripts avec les functions ```wp_enqueue_*```
+ * Mappé un menu, deux zones de pied de pages afin de les rendre dynamiques
+ 
 ### Ajouter un post type "concert"
+
  
